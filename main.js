@@ -7,4 +7,5 @@ var newstr=""
         newstr+=String.fromCharCode(ascii-1)+""+String.fromCharCode(ascii+1)
     }
 //אין צורך לבדוק שהמספר זוגי הרי כל מספר אי זוגי או זוגי כפול 2 הוא זוגי
+document.title=newstr
 document.write(newstr)
